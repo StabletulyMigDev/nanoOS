@@ -1,0 +1,23 @@
+{
+  "name": "nanoos",
+  "version": "0.0.1",
+  "description": "An OS for PWED devices",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-all": "electron-builder -wml",
+    "build-no-mac": "electron-builder -wl"
+  },
+  "author": "Miguel V. Mesquita",
+  "license": "MIT",
+  "dependencies": {
+    "@xterm/xterm": "^5.5.0",
+    "bootstrap": "^5.3.3",
+    "electron": "^31.0.2",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+	  "appID": "io.migdev.gnu.nano.os"
+  }
+}
