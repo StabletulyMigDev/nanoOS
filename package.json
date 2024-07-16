@@ -14,10 +14,11 @@
   "author": "Miguel V. Mesquita",
   "license": "MIT",
   "dependencies": {
+    "@mdx-js/mdx": "^3.0.1",
     "@xterm/xterm": "^5.5.0",
     "bootstrap": "^5.3.3",
     "electron-squirrel-startup": "^1.0.1",
-    "@mdx-js/mdx": "^3.0.1"
+    "typescript": "^5.5.3"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
@@ -28,9 +29,10 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
     "@electron-forge/plugin-fuses": "^7.4.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^31.0.2"
+    "electron": "^31.0.2",
+    "electron-builder": "^24.13.3"
   },
   "build": {
-    "appID": "io.migdev.gnu.nano.os"
+    "appId": "io.migdev.gnu.nano.os"
   }
 }
